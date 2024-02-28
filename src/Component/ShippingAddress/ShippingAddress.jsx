@@ -20,7 +20,7 @@ export default function ShippingAddress() {
   async function cash(values) {
     const { data } = await CreateCashOrder(cartId, values);
     if (data.status == 'success') {
-      window.location.href='/allorders'
+      window.location.href='allorders'
 
     }
   }
